@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZETACE - Marca de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid #fff;
+        }
+        a:hover {
+            color: #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ZETACE</h1>
+        <p>Marca de Ropa</p>
+    </header>
+    <main>
+        <section id="historia">
+            <h2>Nuestra Historia</h2>
+            <p>ZETACE nació de la pasión por la moda y el deseo de crear algo único. Fundada en [Año de Fundación], nuestra marca ha crecido y evolucionado, siempre manteniendo nuestro compromiso con la calidad y el estilo. Desde nuestros humildes comienzos, hemos trabajado arduamente para diseñar ropa que no solo se vea bien, sino que también haga sentir bien a quien la lleva.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información sobre nuestros productos o cualquier consulta, no dudes en <a href="mailto:contacto@zetace.com">contactarnos</a>.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 ZETACE. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
